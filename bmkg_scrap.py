@@ -49,25 +49,11 @@ def waktu_gempa():
 def lokasi_gempa():
     lokasi = web().div.select("p", {"class":"par"})
     lok = lokasi[0].text.split()
-   
-    def titik_gempa():
-        ke = lok[1]
-        pat = r'[a-zA-z]'
-        ge = re.findall(pat, ke)
-        tem = ''.join(ge)
+    
+    lok.remove('Lokasi')
+    lok[0] = 'Pusat'
+    
 
-        return tem
-
-    def km_gempa():
-        ke = lok[1]
-        pola = r'[\d]'
-        km = re.findall(pola, ke)
-        kilo = ''.join(km)
-
-        return kilo
-
-    lok_pas = titik_gempa() + " " + km_gempa()
-    lok[1] = lok_pas
     pos = " ".join(lok)
 
     return pos
