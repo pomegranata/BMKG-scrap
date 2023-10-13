@@ -1,6 +1,10 @@
 # BMKG-scrap
 Web scraping website BMKG untuk update informasi terbaru tentang gempa
 
-Note: 
-1. File .ipynb harus dijalankan menggunakan Google Colab atau Jupyter Notebook
-2. Untuk file .py bisa dijalankan pada IDE apapun
+.ipynb note:
+1. File .ipynb hanya bisa dijalankan menggunakan Google Colab atau Jupyter Notebook
+2. Program akan menyimpan data ke dalam bentuk CSV
+
+.py note:
+1. Jalankan program .py menggunakan IDE apapun
+2. Program akan membuat notifikasi pada dekstop untuk menyampaikan informasi seputar gempa
