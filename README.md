@@ -6,5 +6,5 @@ Web scraping website BMKG untuk update informasi terbaru tentang gempa
 2. Program akan menyimpan data ke dalam bentuk CSV
 
 .py note:
-1. Jalankan program .py menggunakan IDE apapun
-2. Program akan membuat notifikasi pada dekstop untuk menyampaikan informasi seputar gempa
+1. Jalankan program .py menggunakan IDE
+2. Program akan membuat notifikasi pada dekstop untuk menyampaikan informasi gempa terbaru
